@@ -37,5 +37,5 @@ def main():
             print("Thank you for using the BMI calculator!")
             break
 
-# Run the program
 main()
+
