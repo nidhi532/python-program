@@ -1,4 +1,3 @@
-# Predefined allergy medications
 known_allergies = {"Aspirin", "Ibuprofen", "Penicillin"}
 
 # List to store all patients
@@ -45,7 +44,7 @@ def show_patients():
         print("Symptoms:", ", ".join(p["symptoms"]))
         print("Medications:", ", ".join(p["medications"]))
         if p["allergy_risk"]:
-            print("⚠️ Allergy Risk:", ", ".join(p["allergy_risk"]))
+            print("Allergy Risk:", ", ".join(p["allergy_risk"]))
         else:
             print("No allergy risks.")
 
@@ -69,5 +68,6 @@ def main():
         else:
             print("Invalid input. Try again.")
 
-# Run the program
+
 main()
+
